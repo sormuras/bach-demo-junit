@@ -1,15 +1,29 @@
 # bach-demo-junit
 ✅ Bach + JUnit
 
+Running
 ```shell
 java @junit engines
 ```
+on Java 22+ yields:
 ```
 | org.junit.platform.console/junit@1.11.0-M2 engines
 
 💚 Thanks for using JUnit! Support its development at https://junit.org/sponsoring
 
 junit-jupiter (org.junit.jupiter:junit-jupiter-engine:5.11.0-M2)
+```
+
+## Mind Submodules
+
+Clone with `--recurse-submodules`!
+```shell
+git clone --recurse-submodules https://github.com/sormuras/bach-demo-junit
+```
+
+If you already cloned the project and forgot `--recurse-submodules` you can initialize, fetch and checkout any nested submodules via:
+```shell
+git submodule update --init --recursive
 ```
 
 ## Command History
