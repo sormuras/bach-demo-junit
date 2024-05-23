@@ -29,6 +29,6 @@ class JUnitRunner {
 
         var tools = ToolFinder.of(modules);
         System.out.println("\nAbout to run JUnit...");
-        tools.get("junit").run(args.length == 0 ? new String[]{"--version"} : args);
+        tools.get("junit").run(args.length == 0 ? new String[]{"--help"} : args);
     }
 }
