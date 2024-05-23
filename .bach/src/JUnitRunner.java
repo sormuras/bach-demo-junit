@@ -1,10 +1,10 @@
 // unnamed package
 
-import bach.info.org.junit.JUnit;
 import java.lang.module.ModuleFinder;
 import java.nio.file.Path;
 import run.bach.ModuleResolver;
 import run.bach.ToolFinder;
+import run.info.org.junit.JUnit;
 
 /**
  * An application installing and running JUnit via its modular tool provider.
