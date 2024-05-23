@@ -33,7 +33,7 @@ The following commands were used to configure this project.
 ```shell
 sdk install java 22-open
 git submodule add --name run.bach https://github.com/sormuras/run.bach .bach/src/run/bach
-git submodule add --name junit https://github.com/junit-team/bach.info.org.junit .bach/src/bach/info/org/junit
+git submodule add --name junit https://github.com/junit-team/bach-info .bach/src/run/info/org/junit
 edit .bach/src/JUnitRunner.java
 java .bach/src/JUnitRunner.java
 echo ".bach/src/JUnitRunner.java" > junit
