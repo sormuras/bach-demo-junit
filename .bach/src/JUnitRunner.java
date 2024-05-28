@@ -15,7 +15,7 @@ class JUnitRunner {
         var lib = Path.of("lib");
 
         System.out.println("\nResolving JUnit modules into " + lib.toUri() + " ...");
-        var resolver = ModuleResolver.ofSingleDirectory(lib, JUnit.MODULES);
+        var resolver = ModuleResolver.ofSingleDirectory(lib, JUnit.modules());
         resolver.resolveModule("org.junit.jupiter"); // to write and discover tests
         resolver.resolveModule("org.junit.platform.console"); // to run tests
         resolver.resolveMissingModules();
